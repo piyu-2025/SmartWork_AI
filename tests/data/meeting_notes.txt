@@ -1,0 +1,9 @@
+- TODO: Fix build pipeline; urgent blocker caused by missing env variable.
+- Update README with new deployment steps.
+- Todo: Review PR #42 - needs tests added.
+-Yesterday we had a sync with vendor about API rate limits. Decision: throttle to 100 rpm.
+-Completed the API refactor yesterday.
+-Working on integrating the new authentication flow today.
+-Blocker: Waiting for DB migration approval from DevOps.
+-Next action: Create test cases for token expiry.
+-Deployment failing due to error: K8S_ERR_IMAGE_PULL
