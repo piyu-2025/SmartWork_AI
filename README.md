@@ -79,22 +79,26 @@ python -m tests.test_agent
 The project is organized as follows:
 
 ```
+
 smartwork_AI/
-├── agents/
-│   ├── data_collector_agent.py
-│   ├── insights_generator_agent.py
-│   └── standup_summarizer_agent.py
-├── tools/
-│   └── file_reader_tool.py
-├── data/
-│   └── meeting_notes.txt
+├── smart_work_agent
+|   ├── agents/
+│   |    ├── data_collector_agent.py
+│   |    ├── insights_generator_agent.py
+│   |    └── standup_summarizer_agent.py
+|   ├── tools/
+|   |    ├── date_time_tool.py
+│   |    └── file_reader_tool.py  
 ├── tests/
+|   ├── data/
+│   |    └── meeting_notes.txt
+|   ├── logs/
+│   |    └── loggers.log
+|   ├── README.md
 │   └── test_agent.py
-├── logs/
-│   └── loggers.log
-├── README.md
+├── AGENT_FLOWCHART.md
 ├── requirements.txt
-└── main.py
+└── README.md
 ```
 ### 1. Data Collector Agent
 - **Type**: Agent with Tools
